@@ -1,0 +1,6 @@
+# Permite o rastreamento de todas as páginas públicas.
+# A URL abaixo é trocada automaticamente no deploy (scripts/build.mjs, constante SITE_URL).
+User-agent: *
+Allow: /
+
+Sitemap: https://TROCAR-PELO-LINK-DO-VERCEL.vercel.app/sitemap.xml

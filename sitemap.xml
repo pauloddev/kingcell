@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Única URL pública e canônica do site (página única). A URL e a data são preenchidas no deploy por scripts/build.mjs. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://TROCAR-PELO-LINK-DO-VERCEL.vercel.app/</loc>
+    <lastmod>2026-10-16</lastmod>
+  </url>
+</urlset>
