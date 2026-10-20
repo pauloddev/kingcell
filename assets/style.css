@@ -407,7 +407,7 @@ h1{filter:drop-shadow(0 0 18px rgba(227,185,94,.25));animation:shine 2.2s ease-o
 .map__frame{position:absolute;inset:0;background:#15120D}
 .map__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.85) invert(.9) sepia(.25) contrast(.9) hue-rotate(180deg)}
 .map__pin{position:absolute;left:50%;top:50%;z-index:1;display:grid;place-items:center;width:52px;height:52px;margin:-58px 0 0 -26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--grad-btn);box-shadow:0 0 0 6px rgba(227,185,94,.25),0 10px 24px rgba(0,0,0,.6)}
-.map__pin img{width:30px;height:auto;transform:rotate(45deg)}
+.map__pin img{width:30px;height:auto;transform:rotate(45deg);filter:brightness(0)}
 .map__attr{position:absolute;left:16px;bottom:16px;z-index:1;padding:2px 8px;border-radius:6px;background:rgba(11,10,8,.8);font-size:11px;color:var(--muted)}
 .map__frame iframe{position:absolute;inset:0;z-index:2;width:100%;height:100%;border:0;filter:grayscale(.85) invert(.9) sepia(.25) contrast(.9) hue-rotate(180deg)}
 .map__card{position:absolute;top:16px;left:16px;display:grid;padding:12px 16px;border-radius:12px;background:rgba(11,10,8,.92);border:1px solid var(--line2);pointer-events:none}
